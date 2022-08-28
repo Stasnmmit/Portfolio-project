@@ -1,0 +1,82 @@
+:root {
+	--big-font: 'Playfair Display',
+		serif;
+	--little-font: 'Poppins',
+		sans-serif;
+}
+
+.wrapper__container {
+	background-color: #F9F7FE;
+}
+
+.header {}
+.header_menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0px 160px;
+	padding: 40px 0px;
+}
+
+.header__logo {}
+.header__items {}
+
+.header__link {
+	color: #272142;
+	text-decoration: none;
+}
+.header__link:hover {
+	color: #6C63FF;
+	text-decoration: none;
+}
+
+.page {}
+.onepage__container {}
+
+.onepage__text {
+	margin: 100px 0px 0px 0px;
+}
+
+.onepage__text__hi {
+	font-family: var(--little-font);
+	font-weight: 700;
+	color: #272142;
+	font-size: 36px;
+	text-align: center;
+	letter-spacing: 150%;
+}
+
+.onepage__text__who {
+	font-family: var(--big-font);
+	font-weight: 700;
+	font-size: 96px;
+	color: #000000;
+	text-align: center;
+}
+.onepage__text__where {
+	margin: 25px 0px 0px 0px;
+	font-family: var(--little-font);
+	color:#272142;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 150%;
+	text-align: center;
+}
+
+.onepage__buttons {
+	text-align: center;
+	margin: 50px 0px 0px 0px;
+	padding: 0px 0px 125px 0px;
+}
+
+.onepage__button {
+	text-decoration: none;
+	color: #6C63FF;
+	border: thick double #6C63FF;
+	border-radius: 5px;
+	padding: 18px 46px;
+}
+.onepage__button:hover {
+	color: #ffff;
+	background-color: #6C63FF;
+}
