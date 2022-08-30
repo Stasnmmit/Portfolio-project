@@ -22,8 +22,14 @@
 	text-decoration: none;
 }
 .header__link:hover {
+	padding: 2px 5px;
 	color: #6C63FF;
 	text-decoration: none;
+	border: 2px solid #6C63FF;
+	border-radius: 5px;
+}
+.header__link:not(:last-child) {
+	margin: 0px 20px 0px 0px;
 }
 /**____________-             ONE PAGE          -____________________*/
 .onepage__text {
@@ -91,8 +97,9 @@
 }
 
 .twopage__img {
-	display: block;
+	
 }
+ 
 
 .twopage__textcont {
 	margin: 0px 100px 0px 60px;
@@ -162,7 +169,7 @@
 /*-------------__________-_____----WORK--- ______________---------*/
 .work_conteiner {
 	background-color: #F9F7FE;
-	margin: 80px 67px;
+	margin: 80px 60px;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -228,4 +235,27 @@
 }
 .footer_image:not(:last-child) {
 	margin: 0px 50px 0px 0px;
+}
+.footer_image:hover {
+	background: white;
+	border: 5px solid #6C63FF;
+}
+
+
+
+.work_conteinerabout {
+	background-color: #F9F7FE;
+	margin: 150px 60px 80px 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 20px 40px;
+}
+.onepage__text__whereabout {
+	margin: 25px 0px 0px 0px;
+	font-family: var(--little-font);
+	color: #272142;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 150%;
 }
