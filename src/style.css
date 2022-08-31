@@ -242,7 +242,7 @@
 }
 
 
-
+/*_____________________   PAGE ABOUT    __________*/
 .work_conteinerabout {
 	background-color: #F9F7FE;
 	margin: 150px 60px 80px 60px;
@@ -258,4 +258,58 @@
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 150%;
+}
+/*___________________      PAGE WORK    _____________*/
+.workpage_text {
+	font-family: var(--big-font);
+	margin: 100px 0px 80px 60px;
+	color: #000000;
+	font-size: 64px;
+	line-height: 135%;
+	font-weight: 700;
+	max-width: 825px;
+}
+
+.workpage_main {
+	margin: 100px 60px 0px 60px;
+}
+
+.workpage_container {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	
+}
+
+.workpage_con1 {
+	flex: 1 1 auto;
+	margin: 20px 0px
+}
+
+.workpage_img {}
+
+.workpage_title {
+	font-family: var(--little-font);
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 150%;
+}
+
+.workpage_subtitle {
+	font-family: var(--little-font);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 150%;
+}
+
+/*___________________    PAGE CONTACT    ____________*/
+.contact_containet {
+	margin: 50px 0px 0px 60px;
+}
+
+.contact_text {
+	font-family: var(--big-font);
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 135%;
 }
